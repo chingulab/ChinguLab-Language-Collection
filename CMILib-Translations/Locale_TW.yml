@@ -110,49 +110,49 @@
 info:
   # Use !prefix! in any locale line to automatically include this prefix
   prefix: '&e[&aCMI&e] '
-  NoPermission: '&cYou don''t have permission!'
-  CantHavePermission: '&cYou can''t have this permission!'
-  WrongGroup: '&cYou are in wrong group for this!'
-  NoPlayerPermission: '&c[playerName] doesn''t have permission for: [permission]'
-  Ingame: '&cYou can only use this in game!'
-  NoInformation: '&cNo information found!'
-  Console: '&6Server'
-  FromConsole: '&cYou can only use this in the console!'
-  NotOnline: '&cThe player is not online!'
-  NobodyOnline: '&cThere is no one online!'
-  NoPlayer: '&cCan''t find player with this name!'
-  NoCommand: '&cThere is no command by this name!'
-  cantFindCommand: '&5Couldn''t find &7[%1]&5 command, did you mean &7[%2]&5?'
-  nolocation: '&4Can''t find suitable location'
-  FeatureNotEnabled: '&cThis feature is not enabled!'
-  ModuleNotEnabled: '&cThis module is not enabled!'
-  versionNotSupported: '&cServer version is not supported for this feature'
-  spigotNotSupported: '&cYou need PaperSpigot branch type server for this to work'
-  bungeeNoGo: '&cThis feature will not work on bungee network based servers'
-  clickToTeleport: '&eClick to teleport'
-  UseMaterial: '&4Please use material names!'
-  IncorrectMaterial: '&4Incorrect material name!'
-  UseInteger: '&4Please use numbers!'
-  UseBoolean: '&4Please use True or False!'
-  NoLessThan: '&4Number can''t be less than [amount]!'
-  NoMoreThan: '&4Value can''t be more than [amount]'
-  NoWorld: '&4Can''t find world with this name!'
-  IncorrectLocation: '&4Location defined incorrectly!'
-  Show: '&eShow'
-  Remove: '&cRemove'
-  Back: '&eBack'
-  Forward: '&eForward'
-  Update: '&eUpdate'
-  Save: '&eSave'
-  Delete: '&cDelete'
-  Click: '&eClick'
-  Preview: '&ePreview'
-  PasteOld: '&ePaste old'
-  ClickToPaste: '&eClick to paste into chat'
-  CantTeleportWorld: '&eYou can''t teleport to this world'
-  CantTeleportNoWorld: '&cTarget world doesn''t exist. Teleportation canceled'
-  ClickToConfirmDelete: '&eClick to confirm removal of &6[name]'
-  teleported: '&eYou have been teleported.'
+  NoPermission: '&c你沒有權限執行此指令!'
+  CantHavePermission: '&c你無法擁有此權限!'
+  WrongGroup: '&c你在錯誤的群組中!'
+  NoPlayerPermission: '&c[playerName] 沒有權限: [permission]'
+  Ingame: '&c你只能在遊戲中這麼做!'
+  NoInformation: '&c找不到資訊!'
+  Console: '&6伺服器'
+  FromConsole: '&c只能在 console 這麼做!'
+  NotOnline: '&c玩家不在線上!'
+  NobodyOnline: '&c伺服器裡沒有玩家!'
+  NoPlayer: '&c找不到這個玩家!'
+  NoCommand: '&c未知指令!'
+  cantFindCommand: '&5無法找到此指令 &7[%1]&5 你要找的指令是 &7[%2]&5?'
+  nolocation: '&4找不到適合的位置'
+  FeatureNotEnabled: '&c該機制未啟用!'
+  ModuleNotEnabled: '&c該功能未啟用!'
+  versionNotSupported: '&c伺服器版本不支持此特性'
+  spigotNotSupported: '&c您需要 PaperSpigot 分支類型伺服器才能正常運行'
+  bungeeNoGo: '&c此功能在基於 bungee 伺服器上無法使用'
+  clickToTeleport: '&e點擊傳送'
+  UseMaterial: '&4請使用物品名稱!'
+  IncorrectMaterial: '&4材料名稱不正確!'
+  UseInteger: '&4請使用數字!'
+  UseBoolean: '&4請使用布林值 True 或 False!'
+  NoLessThan: '&4數值不能小於 [amount]!'
+  NoMoreThan: '&4數值不能大於 [amount]'
+  NoWorld: '&4找不到該世界!'
+  IncorrectLocation: '&4位置指定錯誤!'
+  Show: '&e展示'
+  Remove: '&c移除'
+  Back: '&e返回'
+  Forward: '&e向前'
+  Update: '&e更新'
+  Save: '&e保存'
+  Delete: '&c刪除'
+  Click: '&e點擊'
+  Preview: '&e預覽'
+  PasteOld: '&e貼上舊的內容'
+  ClickToPaste: '&e點擊貼上聊天室'
+  CantTeleportWorld: '&e你不能傳送到該世界'
+  CantTeleportNoWorld: '&c標世界不存在, 傳送已被取消.'
+  ClickToConfirmDelete: '&e點擊確認刪除 &6[name]'
+  teleported: '&e你被傳送了.'
   PlayerSpliter: '&e----- &6[playerDisplayName] &e-----'
   Spliter: '&e--------------------------------------------------'
   SpliterValue: '&e------------------ &6[value] &e------------------'
@@ -161,73 +161,72 @@ info:
   ListSpliter: ', '
   ProgressBarFill: '&2▏'
   ProgressBarEmpty: '&e▏'
-  nothingInHand: '!actionbar!&eYou need to hold item in hand'
-  nothingInHandLeather: '&eYou need to hold leather item in hand'
-  nothingToShow: '&eNothing to show'
-  noItem: '&cCan''t find item'
-  dontHaveItem: '&cYou don''t have &6[amount]x [itemName] &cin your inventory'
-  wrongWorld: '&cCan''t do this in this world'
-  differentWorld: '&cDifferent worlds'
-  HaveItem: '&cYou have &6[amount]x [itemName] &cin your inventory'
-  cantDoInGamemode: '&eYou can''t do this in this game mode'
-  cantDoForPlayer: '&eYou can''t do this to &6[playerDisplayName]'
-  cantDoForYourSelf: '&eYou can''t do this to yourself'
-  cantDetermineMobType: '&cCan''t determine mob type from &e[type] &cvariable'
-  cantRename: '!actionbar!&eYou can''t use this name'
-  confirmRedefine: '&eClick to confirm redefining'
-  cantEdit: '&eYou can''t edit this'
-  wrongName: '&cWrong name'
+  nothingInHand: '!actionbar!&e你需要把物品拿在手上'
+  nothingInHandLeather: '&e你需要把皮革物品拿在手上'
+  nothingToShow: '&e沒有東西可以展示'
+  noItem: '&c找不到物品'
+  dontHaveItem: '&c你的背包中沒有 &6[itemName] &fx &c[amount]'
+  wrongWorld: '&c不可在此世界這樣做'
+  differentWorld: '&c不同的世界'
+  HaveItem: '&c在背包裡有 &6[amount] &fx &c[itemName]'
+  cantDoInGamemode: '&e你無法在此遊戲模式下這麼做'
+  cantDoForPlayer: '&e你不能對 &6[playerDisplayName]  &e這麼做'
+  cantDoForYourSelf: '&e你不能對自己這麼做'
+  cantDetermineMobType: '&c無法指定怪物類型 &e[type]'
+  cantRename: '!actionbar!&e你不能更改為這個名字'
+  confirmRedefine: '&e點擊確認來重新定義'
+  cantEdit: '&e您無法編輯此內容'
+  wrongName: '&c錯誤的名字'
   unknown: unknown
-  invalidName: '&cInvalid name'
-  alreadyexist: '&4This name is taken'
-  dontexist: '&4Nothing found by this name'
-  worldDontExist: '&cTarget world can''t be accessed anymore. Can''t teleport you
-    there!'
+  invalidName: '&c無效的名字'
+  alreadyexist: '&4該名稱已被占用'
+  dontexist: '&4未找到'
+  worldDontExist: '&c目標世界不存在!'
   notSet: not set
-  lookAtSign: '&eLook at sign'
-  lookAtBlock: '&eLook at block'
-  lookAtEntity: '&eLook at entity'
-  noSpace: '&eNot enough free space'
-  notOnGround: '&eYou can''t perform this while flying'
+  lookAtSign: '&e請指向一個告示牌'
+  lookAtBlock: '&e請指向一個方塊'
+  lookAtEntity: '&e請指向一個實體'
+  noSpace: '&e沒有足夠的可用空間'
+  notOnGround: '&e飛行期間不能這麼做'
   bungee:
-    Online: '&6Online'
-    Offline: '&cOffline'
-    not: '&cServer doesn''t belong to bungee network'
-    noserver: '&cCan''t find server by this name!'
-    server: '&eServer: &7[name]'
+    Online: '&6在線'
+    Offline: '&c離線'
+    not: '&c這個伺服器不在群組下'
+    noserver: '&c找不到這個伺服器!'
+    server: '&e伺服器: &7[name]'
   variables:
-    am: '&eAM'
-    pm: '&ePM'
-    Online: '&6Online'
-    Offline: '&cOffline'
+    am: '&e上午(AM)'
+    pm: '&e下午(PM)'
+    Online: '&6在線'
+    Offline: '&c離線'
     TrueColor: '&2'
     FalseColor: '&4'
     'True': '&6True'
     'False': '&cFalse'
-    Enabled: '&6Enabled'
-    Disabled: '&cDisabled'
-    survival: '&6Survival'
-    creative: '&6Creative'
-    adventure: '&6Adventure'
-    spectator: '&6Spectator'
-    flying: '&6Flying'
-    notflying: '&6Not flying'
+    Enabled: '&6啟用'
+    Disabled: '&c禁用'
+    survival: '&6生存&7†&6 Survival'
+    creative: '&6創造&7†&6 Creative'
+    adventure: '&6冒險&7†&6 Adventure'
+    spectator: '&6旁觀&7†&6 Spectator'
+    flying: '&6飛行'
+    notflying: '&6未飛行'
   Inventory:
-    Full: '&5Your inventory is full. Can''t add item'
-    FullDrop: '&5Not all items fit in your inventory. They have been dropped on ground'
-  TimeNotRecorded: '&e-No record-'
-  months: '&e[months] &6months '
-  oneMonth: '&e[months] &6month '
-  weeks: '&e[weeks] &6weeks '
-  oneWeek: '&e[weeks] &6week '
-  years: '&e[years] &6years '
-  oneYear: '&e[years] &6year '
-  day: '&e[days] &6days '
-  oneDay: '&e[days] &6day '
-  hour: '&e[hours] &6hours '
-  oneHour: '&e[hours] &6hour '
-  min: '&e[mins] &6min '
-  sec: '&e[secs] &6sec '
+    Full: '&5您的背包已滿了. 無法添加物品'
+    FullDrop: '&5你的背包有無法存在你背包的物品. 已經被丟棄在地上了'
+  TimeNotRecorded: '&e-無紀錄-'
+  months: '&e[months] &6月 '
+  oneMonth: '&e[months] &6月 '
+  weeks: '&e[weeks] &6週 '
+  oneWeek: '&e[weeks] &6週 '
+  years: '&e[years] &6年 '
+  oneYear: '&e[years] &6年 '
+  day: '&e[days] &6天 '
+  oneDay: '&e[days] &6天 '
+  hour: '&e[hours] &6小時 '
+  oneHour: '&e[hours] &6小時 '
+  min: '&e[mins] &6分鐘 '
+  sec: '&e[secs] &6秒 '
   nextPageConsole: '&fFor next page perform &5[command]'
   prevPage: '&2----<< &6Prev '
   prevCustomPage: '&2----<< &6[value] '
@@ -595,151 +594,151 @@ info:
     zombified_piglin: Zombified piglin
   EnchantAliases:
     protection_fire:
-    - FireProtection
+      - FireProtection
     damage_all:
-    - Sharpness
+      - Sharpness
     arrow_fire:
-    - Flame
+      - Flame
     soul_speed:
-    - SOULSPEED
+      - SOULSPEED
     water_worker:
-    - AquaAffinity
+      - AquaAffinity
     arrow_knockback:
-    - Punch
+      - Punch
     loyalty:
-    - Loyalty
+      - Loyalty
     depth_strider:
-    - DepthStrider
+      - DepthStrider
     vanishing_curse:
-    - VanishingCurse
+      - VanishingCurse
     durability:
-    - Unbreaking
+      - Unbreaking
     knockback:
-    - Knockback
+      - Knockback
     luck:
-    - Luck
+      - Luck
     binding_curse:
-    - BindingCurse
+      - BindingCurse
     loot_bonus_blocks:
-    - Fortune
+      - Fortune
     protection_environmental:
-    - Protection
+      - Protection
     dig_speed:
-    - Efficiency
+      - Efficiency
     mending:
-    - Mending
+      - Mending
     frost_walker:
-    - FrostWalker
+      - FrostWalker
     lure:
-    - Lure
+      - Lure
     loot_bonus_mobs:
-    - Looting
+      - Looting
     piercing:
-    - Piercing
+      - Piercing
     protection_explosions:
-    - BlastProtection
+      - BlastProtection
     damage_undead:
-    - Smite
+      - Smite
     multishot:
-    - Multishot
+      - Multishot
     swift_sneak:
-    - SWIFTSNEAK
+      - SWIFTSNEAK
     fire_aspect:
-    - FireAspect
+      - FireAspect
     channeling:
-    - Channeling
+      - Channeling
     sweeping_edge:
-    - SweepingEdge
+      - SweepingEdge
     thorns:
-    - Thorns
+      - Thorns
     damage_arthropods:
-    - BaneOfArthropods
+      - BaneOfArthropods
     oxygen:
-    - Respiration
+      - Respiration
     riptide:
-    - Riptide
+      - Riptide
     silk_touch:
-    - SilkTouch
+      - SilkTouch
     quick_charge:
-    - QUICKCHARGE
+      - QUICKCHARGE
     protection_projectile:
-    - ProjectileProtection
+      - ProjectileProtection
     impaling:
-    - Impaling
+      - Impaling
     protection_fall:
-    - FallProtection
-    - FeatherFalling
+      - FallProtection
+      - FeatherFalling
     arrow_damage:
-    - Power
+      - Power
     arrow_infinite:
-    - Infinity
+      - Infinity
   PotionEffectAliases:
     speed:
-    - Speed
+      - Speed
     slow:
-    - Slow
+      - Slow
     fast_digging:
-    - Fast digging
+      - Fast digging
     slow_digging:
-    - Slow digging
+      - Slow digging
     increase_damage:
-    - Increase damage
+      - Increase damage
     heal:
-    - Heal
+      - Heal
     harm:
-    - Harm
+      - Harm
     jump:
-    - Jump
+      - Jump
     confusion:
-    - Confusion
+      - Confusion
     regeneration:
-    - Regeneration
+      - Regeneration
     damage_resistance:
-    - Damage resistance
+      - Damage resistance
     fire_resistance:
-    - Fire resistance
+      - Fire resistance
     water_breathing:
-    - Water breathing
+      - Water breathing
     invisibility:
-    - Invisibility
+      - Invisibility
     blindness:
-    - Blindness
+      - Blindness
     night_vision:
-    - Night vision
+      - Night vision
     hunger:
-    - Hunger
+      - Hunger
     weakness:
-    - Weakness
+      - Weakness
     poison:
-    - Poison
+      - Poison
     wither:
-    - Wither
+      - Wither
     health_boost:
-    - Health boost
+      - Health boost
     absorption:
-    - Absorption
+      - Absorption
     saturation:
-    - Saturation
+      - Saturation
     glowing:
-    - Glowing
+      - Glowing
     levitation:
-    - Levitation
+      - Levitation
     luck:
-    - Luck
+      - Luck
     unluck:
-    - Unluck
+      - Unluck
     slow_falling:
-    - Slow falling
+      - Slow falling
     conduit_power:
-    - Conduit power
+      - Conduit power
     dolphins_grace:
-    - Dolphins grace
+      - Dolphins grace
     bad_omen:
-    - Bad omen
+      - Bad omen
     hero_of_the_village:
-    - Hero of the village
+      - Hero of the village
     darkness:
-    - Darkness
+      - Darkness
 direction:
   n: North
   ne: North East
@@ -832,9 +831,9 @@ Location:
   Pitch: '&ePitch: &6[pitch]'
   Yaw: '&eYaw: &6[yaw]'
   WorldNames:
-  - world-&2World
-  - world_nether-&2World Nether
-  - world_the_end-&2World The End
+    - w_lobby-&2W Lobby
+    - w_lobby_nether-&2W Lobby Nether
+    - w_lobby_the_end-&2W Lobby The End
 Locations: '&7Locations: '
 warp:
   list: '&e[pos]. &6[warpName] &f- &7[worldName] ([x]:[y]:[z])'
